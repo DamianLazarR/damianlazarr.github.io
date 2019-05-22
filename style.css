@@ -80,6 +80,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: right;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .nav-container h3 {
@@ -242,4 +244,54 @@ a {
   background-color: rgba(33, 55, 255, 1);
   border-radius: 3px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1009px) {
+  .cta p {
+    width: 100%;
+  }
+
+  .btn-container {
+    width: 100%;
+  }
+
+  .about p {
+    width: 100%;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .projects {
+    height: 1000px;
+  }
+
+  .first-box {
+    margin-bottom: 100px;
+  }
+
+  .subhead {
+    width: 100%;
+  }
+
+  .btn-demo {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 676px) {
+  .navbar {
+    display: none;
+  }
+
+  .hero-bg {
+    height: 500px;
+  }
 }
