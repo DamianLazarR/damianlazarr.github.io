@@ -9,15 +9,15 @@
   </head>
 
   <body>
-    <div class="navbar">
-      <div class="container nav-container">
-        <h3>Damian Lazarevski</h3>
-        <a href="#">Projects</a>
-        <a href="#">Need a website?</a>
-      </div>
-    </div>
     <div class="header">
       <div class="hero-bg">
+        <div class="navbar">
+          <div class="container nav-container">
+            <h3>Damian Lazarevski</h3>
+            <a href="#">Projects</a>
+            <a href="#">Need a website?</a>
+          </div>
+        </div>
         <div class="hero">
           <div class="container hero-container">
             <div class="profile-picture"></div>
@@ -33,23 +33,44 @@
       <div class="container">
         <div class="about">
           <span class="subhead">About</span>
-          <hr id="about-hr" />
           <p class="first-paragraph">
             I am a front-end web developer that is based in Melbourne,
-            Australia. I work with <br />HTML, CSS and JavaScript and in
-            libraries such as VueJS, ReactJS, Bootstrap
+            Australia. I work with HTML, CSS and JavaScript and in libraries
+            such as VueJS, ReactJS, Bootstrap
           </p>
-          <p>
+          <p class="second-paragraph">
             I'm always looking for websites to work on so feel free to contact
-            me <br />
-            if you are looking for one, I'd love to work together.
+            me if you are looking for one, I'd love to work together.
           </p>
         </div>
         <div class="projects">
           <span class="subhead">Projects</span>
-          <hr id="projects-hr" />
-          <div class="project-box"></div>
-          <div class="project-box"></div>
+          <div class="projects-container">
+            <div class="project-box">
+              <div class="inside-container">
+                <div class="image-banner"></div>
+                <h2>MovieDatabase</h2>
+                <p>
+                  I am a front-end web developer that is based in Melbourne,
+                  Australia. I work with HTML, CSS and JavaScript and in
+                  libraries such as VueJS, ReactJS, Bootstrap.
+                </p>
+                <a href="#" class="btn-demo">Demo</a>
+              </div>
+            </div>
+            <div class="project-box">
+              <div class="inside-container">
+                <div class="image-banner"></div>
+                <h2>MovieDatabase</h2>
+                <p>
+                  I am a front-end web developer that is based in Melbourne,
+                  Australia. I work with HTML, CSS and JavaScript and in
+                  libraries such as VueJS, ReactJS, Bootstrap.
+                </p>
+                <a href="#" class="btn-demo">Demo</a>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="cta">
           <span class="subhead">Need a website?</span>
@@ -58,7 +79,9 @@
             Australia. I work with HTML, CSS and JavaScript and in libraries
             such as VueJS, ReactJS, Bootstrap.
           </p>
-          <a href="#" class="btn">Get in touch</a>
+          <div class="btn-container">
+            <a href="#" class="btn">Get in touch</a>
+          </div>
         </div>
       </div>
     </div>
