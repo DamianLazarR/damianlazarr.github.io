@@ -56,7 +56,7 @@ a {
 .profile-picture {
   width: 180px;
   height: 180px;
-  background-image: url('face.jpg');
+  background-image: url("face.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 50%;
@@ -198,7 +198,7 @@ a {
   font-size: 20px;
   font-weight: normal;
   padding-left: 30px;
-  padding-top: 30px
+  padding-top: 30px;
 }
 
 .inside-container p {
@@ -211,7 +211,7 @@ a {
 .image-banner {
   width: 100%;
   height: 140px;
-  background-image: url('webn.png');
+  background-image: url("webn.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -293,5 +293,57 @@ a {
 
   .hero-bg {
     height: 500px;
+  }
+}
+
+@media only screen and (max-width: 436px) {
+  .text-container h1 {
+    font-size: 25px;
+  }
+  .text-container span {
+    font-size: 15px;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .about {
+    height: auto;
+  }
+  .hero-container {
+    width: 100%;
+  }
+  .about p {
+    font-size: 15px;
+  }
+  .container {
+    width: 90%;
+  }
+  .project-box {
+    height: 330px;
+  }
+  .inside-container p {
+    display: none;
+  }
+  .inside-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .inside-container h2 {
+    padding: 0;
+    padding-top: 30px;
+  }
+  .btn-demo {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .image-banner {
+    flex: 1;
+  }
+  .cta p {
+    font-size: 15px;
+  }
+  .btn-container {
+    padding-bottom: 100px;
   }
 }
