@@ -251,6 +251,10 @@ a {
   font-weight: bold;
 }
 
+.weatherSearch {
+  cursor: not-allowed;
+}
+
 @media only screen and (max-width: 1009px) {
   .cta p {
     width: 100%;
